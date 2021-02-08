@@ -1,0 +1,123 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-size: 18px;
+  	font-family: "Arial";
+}
+#container
+{
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+p
+{
+	color: #fff;
+	text-align: center;
+}
+
+#logo
+{
+	margin-top: 10px;
+	height: 140px;
+	width: 400px;
+	background-color: #000;
+	margin-left: 270px;
+}
+
+#logo p
+{
+	line-height: 140px;
+}
+
+#nav
+{
+	margin-top: 10px;
+	height: 47px;
+	background-color: #000;
+
+}
+
+#nav p
+{
+	line-height: 47px;
+}
+
+#promo
+{
+	margin-top: 10px;
+	height: 430px;
+	background-color: #000;
+
+}
+
+#promo p
+{
+	line-height: 430px;
+}
+
+#valueInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.valueDesc
+{
+	height: 430px;
+	width: 215px;
+	background-color: #000
+}
+
+.valueDesc p
+{
+	line-height: 430px;
+}
+
+#focusInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#focusImage
+{
+	height: 430px;
+	width: 450px;
+	background-color: #000;
+}
+
+.focusDesc
+{
+	height: 430px;
+	width: 450px;
+	background-color: #000;
+}
+
+#focusInfo p
+{
+	line-height: 430px;
+}
+
+#moreQuestions
+{
+	height: 329px;
+	background-color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#moreQuestions p
+{
+	line-height: 329px;
+}
