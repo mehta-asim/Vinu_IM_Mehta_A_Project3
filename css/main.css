@@ -18,9 +18,9 @@ p
 
 #Hcontainer
 {
-	width: 960px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
 	margin: 0 auto;
   background: white;
 }
@@ -41,6 +41,11 @@ p
   width: 400px;
   background-color: black;
 	margin-left: 270px;
+}
+
+#Hlogo p
+{
+	line-height: 140px;
 }
 
 #logo
@@ -65,6 +70,11 @@ p
 	background-color: black;
 }
 
+#mainNav p
+{
+	line-height: 47px;
+}
+
 #nav
 {
 	margin-top: 10px;
@@ -85,34 +95,66 @@ p
 	background-color: black;
 }
 
+#homePromo p
+{
+	line-height: 280px;
+}
+
 #prod
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
-.product
+
+.product1, .product3
 {
   width: 280px;
   height: 290px;
   background-color: black;
-  margin: 10px;
+  /*margin: 10px;*/
 }
+
+.product2
+{
+	 width: 300px;
+  height: 290px;
+  background-color: black;
+}
+.product1, .product2
+{
+	margin-right: 30px;
+}
+#prod p
+{
+	line-height: 290px;
+}
+
 
 #secImgTxt
 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 20px;
 }
 
+#secImgTxt p
+{
+	line-height: 220px;
+}
 #sec1, #sec2
 {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+#sec2
+{
+	margin-top: 20px;
 }
 
 #img1, #img2
@@ -120,7 +162,7 @@ p
   width: 280px;
   height: 220px;
   background-color: black;
-  margin: 20px;
+  /*margin: 20px;*/
 }
 
 #text1, #text2
@@ -128,17 +170,21 @@ p
   width: 610px;
   height: 220px;
   background-color: black;
-  margin: 20px;
+  /*margin: 20px;*/
 }
 
 #homeFooter
 {
-  margin: 20px;
+  margin-top: 20px;
   width: 920px;
   height: 160px;
   background-color: black;
 }
 
+#homeFooter p
+{
+	line-height: 160px;
+}
 /* About Us Page Content */
 #promo
 {
