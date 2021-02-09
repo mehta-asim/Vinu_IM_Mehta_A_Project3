@@ -6,14 +6,8 @@
 body
 {
 	font-size: 18px;
-  	font-family: "Arial";
-}
-#container
-{
-	width: 920px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin: 0 auto;
+  font-family: Arial, sans-serif;
+  /* background: #ccc; */
 }
 
 p
@@ -22,12 +16,39 @@ p
 	text-align: center;
 }
 
+#Hcontainer
+{
+	width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+  background: white;
+}
+
+#container
+{
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+/* Logo */
+#Hlogo
+{
+  margin-top: 10px;
+  height: 140px;
+  width: 400px;
+  background-color: black;
+	margin-left: 270px;
+}
+
 #logo
 {
 	margin-top: 10px;
 	height: 140px;
 	width: 400px;
-	background-color: #000;
+  	background-color: #000;
 	margin-left: 270px;
 }
 
@@ -36,12 +57,19 @@ p
 	line-height: 140px;
 }
 
+/* Navigation */
+#mainNav
+{
+	margin-top: 10px;
+	height: 47px;
+	background-color: black;
+}
+
 #nav
 {
 	margin-top: 10px;
 	height: 47px;
 	background-color: #000;
-
 }
 
 #nav p
@@ -49,12 +77,74 @@ p
 	line-height: 47px;
 }
 
+/* Home Page Content */
+#homePromo
+{
+	margin-top: 10px;
+	height: 280px;
+	background-color: black;
+}
+
+#prod
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product
+{
+  width: 280px;
+  height: 290px;
+  background-color: black;
+  margin: 10px;
+}
+
+#secImgTxt
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#sec1, #sec2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#img1, #img2
+{
+  width: 280px;
+  height: 220px;
+  background-color: black;
+  margin: 20px;
+}
+
+#text1, #text2
+{
+  width: 610px;
+  height: 220px;
+  background-color: black;
+  margin: 20px;
+}
+
+#homeFooter
+{
+  margin: 20px;
+  width: 920px;
+  height: 160px;
+  background-color: black;
+}
+
+/* About Us Page Content */
 #promo
 {
 	margin-top: 10px;
 	height: 430px;
 	background-color: #000;
-
 }
 
 #promo p
@@ -121,3 +211,4 @@ p
 {
 	line-height: 329px;
 }
+
