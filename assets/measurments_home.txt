@@ -1,0 +1,43 @@
+#Hcontainer
+	width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+#Hlogo
+	margin-top: 10px;
+	height: 140px;
+	width: 400px;
+	margin-left: 270px;
+
+#mainNav
+	margin-top: 10px;
+	height: 47px;
+
+#homePromo
+	margin-top: 10px;
+	height: 280px;
+
+#prod
+ 	margin-top: 20px;
+
+.product
+	width: 280px;
+	height: 290px;
+	margin: 10px;
+
+#img1, #img2
+	width: 280px;
+	height: 220px;
+	margin: 20px;
+
+#text1, #text2
+	width: 610px;
+	height: 220px;
+	margin: 20px;
+
+#homeFooter
+	margin: 20px;
+	width: 920px;
+	height: 160px;
+
+
