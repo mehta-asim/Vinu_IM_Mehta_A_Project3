@@ -17,7 +17,7 @@ p
 	text-align: center;
 }
 
-#container
+#Hcontainer
 {
 	width: 960px;
 	padding-left: 10px;
@@ -26,7 +26,7 @@ p
   background: white;
 }
 
-#logo
+#Hlogo
 {
 	margin-top: 10px;
 	height: 140px;
@@ -42,7 +42,7 @@ p
 	background-color: black;
 }
 
-#promo
+#homePromo
 {
 	margin-top: 10px;
 	height: 280px;
@@ -95,7 +95,7 @@ p
   margin: 20px;
 }
 
-#mainFooter
+#homeFooter
 {
   margin: 20px;
   width: 920px;
